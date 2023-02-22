@@ -1,0 +1,36 @@
+html {
+  transition: background-color 1s linear;
+}
+
+body {
+  overflow: hidden;
+}
+
+#storybook-docs {
+  margin: 0 30px;
+}
+
+#storybook-docs h1,
+#storybook-docs h3 {
+  text-align: center;
+}
+
+#storybook-docs h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+#storybook-docs h2 {
+  border-bottom: 0;
+}
+
+#storybook-docs ul {
+  list-style-type: none;
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+#storybook-docs ul li {
+  font-size: 24px;
+  margin-bottom: 14px;
+}

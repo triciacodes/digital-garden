@@ -1,0 +1,44 @@
+:root {
+  --white: #fff;
+  --black: #333;
+  --ground: #7c6354;
+  --cyan: #0e9594;
+  --dark-green: #0a7070;
+  --citron: #cccc77;
+  --dark-purple: #331832;
+  --mint-light: #e8f4f1;
+  --mint-dark: #c7ede4;
+  --delft: #40376e;
+  --magenta: #820b8a;
+  --violet: #67284e;
+  --rose-quartx: #af9eb2;
+  --coral: #eb4f4f;
+  --gold: #ba943b;
+}
+
+.theme-none {
+  --color-primary: #444;
+  --color-secondary: #aaa;
+  --color-tertiary: #777;
+  --color-quaternary: #999;
+  --color-quinary: #666;
+  --color-sky-circle: #777;
+}
+
+.theme-day {
+  --color-primary: var(--citron);
+  --color-secondary: var(--cyan);
+  --color-tertiary: var(--delft);
+  --color-quaternary: var(--gold);
+  --color-quinary: var(--magenta);
+  --color-sky-circle: var(--gold);
+}
+
+.theme-night {
+  --color-primary: var(--cyan);
+  --color-secondary: var(--magenta);
+  --color-tertiary: var(--delft);
+  --color-quaternary: var(--mint-dark);
+  --color-quinary: var(--violet);
+  --color-sky-circle: var(--rose-quartx);
+}

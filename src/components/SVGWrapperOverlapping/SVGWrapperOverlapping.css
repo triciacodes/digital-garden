@@ -1,0 +1,6 @@
+.svgWrapperOverlappingContainer {
+  position: relative;
+}
+.svgWrapperOverlappingContainer div {
+  position: absolute;
+}

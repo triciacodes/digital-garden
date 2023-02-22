@@ -1,0 +1,12 @@
+.overlappingGroupsContainer {
+  display: flex;
+  flex-direction: row;
+  mix-blend-mode: inherit;
+  transition: all 1s linear;
+}
+
+.group {
+  bottom: 0;
+  position: absolute;
+  mix-blend-mode: inherit;
+}

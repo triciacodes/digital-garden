@@ -1,0 +1,13 @@
+.floralGroupContainer {
+  color: var(--color-primary);
+  display: flex;
+  flex-direction: row;
+  mix-blend-mode: inherit;
+  transition: color 1s linear;
+  width: 100vw;
+}
+
+.container svg {
+  height: 100%;
+  width: 100%;
+}

@@ -2,26 +2,76 @@ import type { Meta, StoryObj } from "@storybook/react";
 
 import { SVGWrapper } from "./SVGWrapper";
 
-import bud from "../../assets/svg/bud.svg";
+import { decoratorCentered } from "../../utils/storybook/decorators";
+import { svgOptions } from "../../utils/storybook/svgOptions";
 
-// More on how to set up stories at: https://storybook.js.org/docs/7.0/react/writing-stories/introduction
 const meta = {
   title: "Components/SVGWrapper",
   component: SVGWrapper,
-  tags: ["autodocs"],
   argTypes: {
-    color: { control: "color" },
+    children: {
+      ...svgOptions,
+    },
   },
-  args: { children: "yes", width: 40 },
+  args: {
+    children: "Bud",
+    color: "var(--color-primary)",
+    width: 10,
+    widthUnit: "em",
+  },
+  decorators: [(Story) => <div style={decoratorCentered}>{Story()}</div>],
 } satisfies Meta<typeof SVGWrapper>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-// More on writing stories with args: https://storybook.js.org/docs/7.0/react/writing-stories/args
-export const Primary: Story = {
+export const Bud: Story = {
   args: {
-    children: <img src={bud} alt="bud" />,
-    color: "pink",
+    children: "Bud",
+    width: 7,
+  },
+};
+
+export const BudWide: Story = {
+  args: {
+    children: "BudWide",
+  },
+};
+
+export const Dandelion: Story = {
+  args: {
+    children: "Dandelion",
+    width: 8,
+  },
+};
+
+export const DandelionWide: Story = {
+  args: {
+    children: "DandelionWide",
+  },
+};
+
+export const Drop: Story = {
+  args: {
+    children: "Drop",
+  },
+};
+
+export const Grass: Story = {
+  args: {
+    children: "Grass",
+    width: 4,
+  },
+};
+
+export const LeavesFill: Story = {
+  args: {
+    children: "LeavesFill",
+  },
+};
+
+export const LeavesOutline: Story = {
+  args: {
+    children: "LeavesOutline",
   },
 };

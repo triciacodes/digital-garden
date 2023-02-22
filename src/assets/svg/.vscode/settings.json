@@ -1,0 +1,21 @@
+{
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "presentation-mode.configBackup": {
+    "editor.fontSize": "undefined",
+    "editor.matchBrackets": "undefined",
+    "editor.minimap.enabled": "undefined",
+    "editor.scrollbar.verticalScrollbarSize": "undefined",
+    "workbench.activityBar.visible": "undefined",
+    "workbench.statusBar.visible": "undefined",
+    "workbench.colorTheme": "undefined",
+    "workbench.layoutControl.enabled": "undefined",
+    "window.zoomLevel": "undefined",
+    "editor.quickSuggestions": "undefined",
+    "editor.parameterHints.enabled": "undefined",
+    "editor.suggest.snippetsPreventQuickSuggestions": "undefined",
+    "html.suggest.html5": "undefined",
+    "editor.snippetSuggestions": "undefined",
+    "editor.hover.enabled": "undefined",
+    "breadcrumbs.enabled": "undefined"
+  }
+}

@@ -1,0 +1,15 @@
+.gardenContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-end;
+}
+
+.gardenGroups {
+  mix-blend-mode: inherit;
+  position: relative;
+}
+
+.gardenGround {
+  z-index: 1;
+}

@@ -11,8 +11,10 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "framer-motion": "^9.0.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite-plugin-svgr": "^2.4.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.0-beta.49",

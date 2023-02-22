@@ -1,21 +1,25 @@
+import { COLORS } from "../../styles";
+import { TUnit } from "../../types";
+
 import "./SVGWrapper.css";
 
-interface ISVGWrapperProps {
+export interface ISVGWrapperProps {
   children?: React.ReactNode;
   color?: string;
   width?: number;
+  widthUnit?: TUnit;
 }
 
-export const SVGWrapper = ({ children, color, width }: ISVGWrapperProps) => {
-  // const mode = primary
-  //   ? "storybook-button--primary"
-  //   : "storybook-button--secondary";
+export const SVGWrapper = ({
+  children,
+  color = COLORS.gray,
+  width,
+  widthUnit = "rem",
+}: ISVGWrapperProps) => {
   return (
     <div
-      // className={["storybook-button", `storybook-button--${size}`, mode].join(
-      //   " "
-      // )}
-      style={{ color, width: `${width}px` }}
+      className="svgWrapperContainer"
+      style={{ color, width: `${width}${widthUnit}` }}
     >
       {children}
     </div>
