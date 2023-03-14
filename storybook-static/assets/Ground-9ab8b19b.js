@@ -1,0 +1,2 @@
+import{j as n}from"./jsx-runtime-670450c2.js";const e=({backgroundColor:o,hasDecoration:r})=>{const a=["groundContainer",`${r?"groundGradient":""}`].join(" ");return n("div",{className:a,style:{backgroundColor:o}})};try{e.displayName="Ground",e.__docgenInfo={description:"",displayName:"Ground",props:{backgroundColor:{defaultValue:null,description:"",name:"backgroundColor",required:!0,type:{name:"string"}},hasDecoration:{defaultValue:null,description:"",name:"hasDecoration",required:!1,type:{name:"boolean"}}}}}catch{}export{e as G};
+//# sourceMappingURL=Ground-9ab8b19b.js.map

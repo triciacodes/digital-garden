@@ -1,0 +1,1 @@
+{"version":3,"file":"colors-69fb553a.js","sources":["../../src/styles/colors.ts"],"sourcesContent":["export const COLORS = {\n  lightGray: \"#d3d3d3\",\n  gray: \"#888\",\n  black: \"#000\",\n  white: \"#fff\",\n};\n"],"names":["COLORS"],"mappings":"AAAO,MAAMA,EAAS,CACpB,UAAW,UACX,KAAM,OACN,MAAO,OACP,MAAO,MACT"}
